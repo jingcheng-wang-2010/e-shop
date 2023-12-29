@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Routes, Route, Link, BrowserRouter as Router } from 'react-router-dom'
+import "./App.css";
 
 import AddProduct from './components/AddProducts'
 import Cart from './components/Cart'
@@ -82,7 +83,7 @@ export default class App extends Component {
               <b className="navbar-item is-size-4 ">eShop</b>
               <label
                 role="button"
-                class="navbar-burger burger"
+                className="navbar-burger burger"
                 aria-label="menu"
                 aria-expanded="false"
                 data-target="navbarBasicExample"
@@ -128,11 +129,11 @@ export default class App extends Component {
               </div>
             </nav>
             <Routes>
-              <Route exact path="/" component={ProductList} />
-              <Route exact path="/login" component={Login} />
-              <Route exact path="/cart" component={Cart} />
-              <Route exact path="/add-product" component={AddProduct} />
-              <Route exact path="/products" component={ProductList} />
+              <Route exact path="/" element={<ProductList/>} />
+              <Route exact path="/login" element={<Login/>} />
+              <Route exact path="/cart" element={<Cart/>} />
+              <Route exact path="/add-product" element={<AddProduct/>} />
+              <Route exact path="/products" element={<ProductList/>} />
             </Routes>
           </div>
         </Router>

@@ -29,6 +29,7 @@ class Login extends Component {
     };
   
     render() {
+        console.log("111 ",this.props.context.user)
       return !this.props.context.user ? (
         <>
           <div className="hero is-primary ">
