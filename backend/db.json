@@ -43,6 +43,14 @@
       "price": 109.99,
       "shortDesc": "Nulla facilisi. Curabitur at lacus ac velit ornare lobortis.",
       "description": "Cras sagittis. Praesent nec nisl a purus blandit viverra. Ut leo. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Fusce a quam."
+    },
+    {
+      "id": "8ne8ss9gzbelqrg6zul",
+      "name": "dancing shoes",
+      "price": "100",
+      "stock": "10",
+      "shortDesc": "shoes for dancing",
+      "description": "shoes for dancing, very pretty"
     }
   ]
 }
